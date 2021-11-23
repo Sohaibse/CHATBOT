@@ -9,7 +9,7 @@ setTimeout(function() {
     element.addClass('enter');
 }, 1000);
 
-element.click(openElement);
+//element.click(openElement);
 
 function openElement() {
     var messages = element.find('.messages');
